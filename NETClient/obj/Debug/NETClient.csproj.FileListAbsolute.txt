@@ -1,0 +1,16 @@
+C:\Users\Mohamed\source\repos\SignalR\NETClient\bin\Debug\NETClient.exe.config
+C:\Users\Mohamed\source\repos\SignalR\NETClient\bin\Debug\NETClient.exe
+C:\Users\Mohamed\source\repos\SignalR\NETClient\bin\Debug\NETClient.pdb
+C:\Users\Mohamed\source\repos\SignalR\NETClient\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\Mohamed\source\repos\SignalR\NETClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mohamed\source\repos\SignalR\NETClient\bin\Debug\Microsoft.AspNet.SignalR.Client.pdb
+C:\Users\Mohamed\source\repos\SignalR\NETClient\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\Mohamed\source\repos\SignalR\NETClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mohamed\source\repos\SignalR\NETClient\obj\Debug\NETClient.csprojAssemblyReference.cache
+C:\Users\Mohamed\source\repos\SignalR\NETClient\obj\Debug\NETClient.Form1.resources
+C:\Users\Mohamed\source\repos\SignalR\NETClient\obj\Debug\NETClient.Properties.Resources.resources
+C:\Users\Mohamed\source\repos\SignalR\NETClient\obj\Debug\NETClient.csproj.GenerateResource.cache
+C:\Users\Mohamed\source\repos\SignalR\NETClient\obj\Debug\NETClient.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed\source\repos\SignalR\NETClient\obj\Debug\NETClient.csproj.CopyComplete
+C:\Users\Mohamed\source\repos\SignalR\NETClient\obj\Debug\NETClient.exe
+C:\Users\Mohamed\source\repos\SignalR\NETClient\obj\Debug\NETClient.pdb

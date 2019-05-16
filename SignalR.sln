@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR", "SignalR\SignalR.csproj", "{F952EBC5-1123-4D38-B1EC-44FD616D32F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSClient", "JSClient\JSClient.csproj", "{1DE3CF03-64C1-4667-8EFB-4C01FF720FC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETClient", "NETClient\NETClient.csproj", "{669D80A2-25E7-4190-BC78-9E5A017D3D19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F952EBC5-1123-4D38-B1EC-44FD616D32F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F952EBC5-1123-4D38-B1EC-44FD616D32F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F952EBC5-1123-4D38-B1EC-44FD616D32F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F952EBC5-1123-4D38-B1EC-44FD616D32F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DE3CF03-64C1-4667-8EFB-4C01FF720FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE3CF03-64C1-4667-8EFB-4C01FF720FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE3CF03-64C1-4667-8EFB-4C01FF720FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE3CF03-64C1-4667-8EFB-4C01FF720FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669D80A2-25E7-4190-BC78-9E5A017D3D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669D80A2-25E7-4190-BC78-9E5A017D3D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669D80A2-25E7-4190-BC78-9E5A017D3D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669D80A2-25E7-4190-BC78-9E5A017D3D19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71CACC83-BB55-47CD-A32F-9256F282CD16}
+	EndGlobalSection
+EndGlobal

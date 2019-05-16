@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Client</h1>
+
+    <div>
+        <input id="txt_name" placeholder="Name" />
+        <input id="txt_name_group" placeholder="Group Name" />
+        <input id="txt_message" placeholder="Message" />
+        <br>
+        <br />
+        <button id="btn_send">Send</button>
+        <button id="btn_join">Join</button>
+        <button id="btn_send_group">Send To Group</button>
+    </div>
+    <div>
+        <ul id="msgs"></ul>
+    </div>
+    <script src="Scripts/jquery-1.6.4.js"></script>
+    <script src="Scripts/jquery.signalR-2.4.1.js"></script>
+    <script src="http://localhost:52257/signalr/hubs"></script>
+    <script>
+        $(document).ready(() => {
+            $.connection.hub.url = "http://localhost:52257/signalr/hubs";
+            $.connection.hub.start();
+            let chatHub = $.connection.chatHub;
+
+            chatHub.client.onMessage = function (name, message) {
+                $('#msgs').append(`<li>${name} : ${message}</li>`);
+            }
+
+            $('#btn_send').click(() => {
+                let name = $('#txt_name').val();
+                let message = $('#txt_message').val();
+                chatHub.server.newMessage(name, message);
+            })
+
+            $('#btn_join').click(() => {
+                let gName = $('#txt_name_group').val();
+                let name = $('#txt_name').val();
+                chatHub.server.joinGroup(name, gName);
+            })
+            
+            $('#btn_send_group').click(() => {
+                let name = $('#txt_name').val();
+                let message = $('#txt_message').val();
+                chatHub.server.newMessage(name, message);
+            })
+        })
+    </script>
+
+</body>
+</html>
